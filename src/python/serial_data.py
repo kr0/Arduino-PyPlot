@@ -1,7 +1,7 @@
 import serial
 import serial.tools.list_ports
 
-def serial_ports():
+def arduino_serial_port():
     ports = list(serial.tools.list_ports.comports())
 
     for port_no, description, address in ports:
@@ -12,13 +12,16 @@ def serial_ports():
 def print_serial():
     with serial.Serial() as ser:
         ser.baudrate = 9600
-        ser.port = serial_ports()
+        ser.port = arduino_serial_ports()
         ser.open()
     
         while(True):
             if (ser.inWaiting() > 0):
                 myData = ser.readline()
                 print myData
+
+
+
 
 
 
