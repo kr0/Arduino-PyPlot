@@ -16,4 +16,10 @@ function frameworkpython {
 ```
 
 ### To use
-Setup Arduino like this (TODO include arduino circuit diagram). And run on mac `frameworkpython src/python/stream_data.py` else `python src/python/stream_data.py`
+Setup Arduino like this (TODO include arduino circuit diagram). 
+
+![Image of circuit]
+(http://i64.tinypic.com/3h4k8.png)
+
+
+And run on mac `frameworkpython src/python/stream_data.py` else `python src/python/stream_data.py`
