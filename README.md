@@ -16,7 +16,7 @@ function frameworkpython {
 ```
 
 ### To use
-Setup Arduino like this (TODO include arduino circuit diagram). 
+Setup Arduino to be something like this:
 
 ![Image of circuit]
 (http://i64.tinypic.com/3h4k8.png)
